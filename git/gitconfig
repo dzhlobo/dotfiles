@@ -1,0 +1,22 @@
+[user]
+  name = Dmitry Zhlobo
+  email = dima.zhlobo@gmail.com
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status -s
+  br = branch
+  hist = log --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset [%an]' --graph --date=short
+  lg = !git --no-pager log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=short -20
+  lga = !git --no-pager log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=short -20 --all
+  p = push
+  po = push origin
+  pom = push origin master
+  pr = pull --rebase
+  m = merge
+  d = diff
+  dc = diff --cached
+
+[color]
+  ui = true
