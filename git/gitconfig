@@ -1,7 +1,3 @@
-[user]
-  name = Dmitry Zhlobo
-  email = dima.zhlobo@gmail.com
-
 [alias]
   co = checkout
   ci = commit
