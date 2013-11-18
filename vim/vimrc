@@ -1,0 +1,38 @@
+" I've made this config by great tutorial: http://nvie.com/posts/how-i-boosted-my-vim/
+" Dependencies:
+" * Pathogen - http://www.vim.org/scripts/script.php?script_id=2332
+" * Molokai - https://github.com/tomasr/molokai
+
+" This must be first, because it changes other options as side effect
+set nocompatible
+
+" Use pathogen to easily modify the runtime path to include all
+" plugins under the ~/.vim/bundle directory
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
+set hidden " hide buffers instead of closing them
+set autoindent " always set autoindenting on
+set copyindent " copy the previous indentation on autoindenting
+set number " always show line numbers
+set showmatch " set show matching parenthesis
+set smartcase " ignore case if search pattern is all lowercase case-sensitive otherwise
+set hlsearch " highlight search terms
+set history=1000 " remember more commands and search history
+set undolevels=1000 " use many muchos levels of undo
+set title " change terminal title
+
+" never write backup files (use cvs)
+set nobackup
+set noswapfile
+
+" Indenting intelligence is enabled based on the syntax rules for the file type
+filetype plugin indent on
+syntax on
+colorscheme molokai
+
+" Press F2 to enable paste mode
+set pastetoggle=<F2>
+
+" Use ; instead of :
+nnoremap ; :
