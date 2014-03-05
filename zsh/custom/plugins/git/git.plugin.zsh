@@ -8,8 +8,10 @@ alias gbr="git branch"
 alias gpom="git push origin master"
 alias gp="git push"
 alias gpo="git push origin"
+alias gpu="git push upstream"
 alias gphm="git push heroku master"
 
+alias grm="git rm"
 alias ga="git add"
 alias gci="git commit"
 
