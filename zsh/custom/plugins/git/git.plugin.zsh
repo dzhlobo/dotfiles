@@ -4,6 +4,7 @@ alias g="git"
 alias gst="git status -s"
 alias gco="git checkout"
 alias gbr="git branch"
+alias gr="git remote"
 
 alias gpom="git push origin master"
 alias gp="git push"
