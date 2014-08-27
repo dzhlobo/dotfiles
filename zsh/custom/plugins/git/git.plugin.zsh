@@ -19,6 +19,7 @@ alias gci="git commit"
 alias gl="git --no-pager log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar)%Creset [%an]' --abbrev-commit --date=short -20"
 alias gla="git --no-pager log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar)%Creset [%an]' --abbrev-commit --date=short -20 --all"
 
+alias gf="git fetch"
 alias gpr="git pull --rebase"
 alias gm="git merge"
 
