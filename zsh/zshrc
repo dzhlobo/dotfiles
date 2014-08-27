@@ -21,3 +21,6 @@ export PATH=$HOME/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 
 # Initialize rbenv
 eval "$(rbenv init -)"
+
+# To run `rails` instead of `bin/rails` create .git/safe directory in repository
+export PATH=.git/safe/../../bin:$HOME/.rbenv/bin:$PATH
